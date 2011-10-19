@@ -1,3 +1,4 @@
+
 #################################################################################################
 # function to draw a map
 draw.map<-function(a=-10,b=30,c=23,d=65, bbox=NULL, fill=TRUE, col.land=grey(0.5),col.water="white", border=NA,

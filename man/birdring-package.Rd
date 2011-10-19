@@ -10,8 +10,8 @@ Its purpose is to read EURING ring reencounter data into R, and to help mapping 
 \tabular{ll}{
 Package: \tab birdring\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2014-01-17\cr
+Version: \tab 1.2\cr
+Date: \tab 2014-09-24\cr
 License: \tab GPL 2\cr
 LazyLoad: \tab yes\cr
 }
