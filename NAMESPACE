@@ -28,12 +28,14 @@ importFrom(lazyData, requireData)
 importFrom(raster, extent)
 importFrom(rgeos, gIntersects, gIntersection, gDifference, gUnionCascaded)
 importFrom(geosphere,gcIntermediate, distRhumb, distMeeus)
-importFrom(ks, kde, Hpi)
-importFrom(reshape, melt, cast)
+#importFrom(ks, kde, Hpi)
+#importFrom(reshape, melt, cast)
 
 
 import(rgdal)
 import(rworldmap)
 import(rworldxtra)
 import(sp)
+import(ks)
+#import(reshape)
 

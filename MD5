@@ -1,5 +1,5 @@
-1dd5edb2e9a6ce551061cf805442f5e9 *DESCRIPTION
-bd25f1b579506b3281e1e3e23cf32440 *NAMESPACE
+938db4e6805b2bafc0258a3bf23ab29c *DESCRIPTION
+a3241f766ecfa08f87b92b181c578358 *NAMESPACE
 931a853d6e3755c0fe219409753a4755 *R/birdstate.R
 c1a9ef1e9fb0b86aa2f7c4462ec46db5 *R/bootci.dc.r
 d85d0d2eed5e5bfa92892c65bbc6f9b1 *R/codes2names.r
@@ -11,7 +11,7 @@ f25b6e43992e5b8ed489539f9d9a6ead *R/decimal.coord.r
 50ba01780500fa11e8ac560511c0515d *R/draw.recmap.R
 26dbe293e20dac6634bb903b4d55212a *R/loxodrom.dir.r
 9ffc7328efb87ee93284cd586114bfd9 *R/loxodrom.dist.r
-691dd2061debafe7c573a941d6e7fb61 *R/map.density2.R
+856a410361c6bcab7329b4f59df1f420 *R/map.density2.R
 4305d0eaf5b39b731e6ae0b45a258018 *R/map.legend.R
 bf24206a6a1289fa7b25df6007463d4b *R/mdy.date.r
 da61857c696d5ae3ac57d79aeb294ac3 *R/mercatorlat.R

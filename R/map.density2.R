@@ -30,9 +30,7 @@ map.density2 <-
     hts <- c(0,quantile(x.obs,probs=seq(from=0.05, to=0.95, length.out=9),na.rm=T),maxht)
     # this next line should make sure that hts is strictly increasing!
     hts <- hts+seq(from=1e-14, to=1e-14*length(hts),length.out=length(hts))
-    
-    x1 <- SpatialGridDataFrame(gt, melt(f1(x.sm$estimate)), proj4string=data@proj4string)
-    
+        
     # generate the colours
     sm.col <- c('transparent',rainbow(9, end=1/6, alpha=0.5))
     
@@ -40,5 +38,4 @@ map.density2 <-
     .filled.contour(x=x.sm$eval.points[[1]], y=x.sm$eval.points[[2]], z=x.sm$estimate,
                     levels=hts,col=sm.col)  
     
-    invisible(x1)
   }
