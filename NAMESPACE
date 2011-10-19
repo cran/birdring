@@ -1,0 +1,39 @@
+export(
+	birdstate
+       ,bootci.dc
+       ,codes2names
+       ,dayofyear
+       ,dc
+       ,decimal.coord
+       ,dmvnorm
+       ,draw.map
+       ,draw.recmap
+       ,loxodrom.dir
+       ,loxodrom.dist
+       ,mdy.date
+ #     ,mercatorbreite
+       ,mercatorlat
+       ,orthodrom.dist
+       ,overlap
+       ,place2name
+       ,read.euring2000
+       ,read.euring2000plus
+       ,scheme2country
+ #     ,schemes   # data sets are not part of the namespace
+ #     ,conditions
+ #     ,circumstances
+ #     ,species
+	)
+importFrom(lazyData, requireData)
+importFrom(raster, extent)
+importFrom(rgeos, gIntersects, gIntersection, gDifference, gUnionCascaded)
+importFrom(geosphere,gcIntermediate, distRhumb, distMeeus)
+importFrom(ks, kde, Hpi)
+importFrom(reshape, melt, cast)
+
+
+import(rgdal)
+import(rworldmap)
+import(rworldxtra)
+import(sp)
+
