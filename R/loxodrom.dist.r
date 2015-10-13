@@ -5,7 +5,7 @@
 ## epsilon: threshold value of a number to be interpreted as zero
 ## package: either "geosphere" or "birding". If "birdring" the "old" function written by F Korner is used. This function does not work in every case... the new function uses the function distRhomb from the package geosphere which is much better! 
 ## Reference: Imboden, C. & D. Imboden (1972). Vogelwarte 26: 336-346.
-## Author: Fränzi Korner, Sept. 2004, www.oikostat.ch/www.vogelwarte.ch
+## Author: Fraenzi Korner, Sept. 2004, www.oikostat.ch/www.vogelwarte.ch
 ## depends on package geosphere
 #################################################################################
 loxodrom.dist<-function(x1, y1, x2, y2, epsilon=0.0001, package="geosphere"){

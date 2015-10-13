@@ -2,6 +2,7 @@ export(
 	birdstate
        ,bootci.dc
        ,codes2names
+       ,critical.check.ringing.event
        ,dayofyear
        ,dc
        ,decimal.coord
@@ -31,6 +32,12 @@ importFrom(geosphere,gcIntermediate, distRhumb, distMeeus)
 #importFrom(ks, kde, Hpi)
 #importFrom(reshape, melt, cast)
 
+
+  importFrom("grDevices", "dev.off", "grey", "jpeg", "png", "rainbow", "tiff")
+  importFrom("graphics", ".filled.contour", "axis", "legend", "lines", "par", "polygon", "rect", "hist")
+  importFrom("methods", "as", "slot", "slot<-")
+  importFrom("stats", "density", "mahalanobis", "optim", "quantile", "runif", "median")
+  importFrom("utils", "data", "read.table")
 
 import(rgdal)
 import(rworldmap)

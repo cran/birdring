@@ -1,5 +1,5 @@
 # read EURING data format EURING 2000+ into R
-# Author: Fränzi Korner-Nievergelt
+# Author: Fraenzi Korner-Nievergelt
 #
 # Reference: du Feu et al. 2012: The EURING Exchange Code 2000+. www.euring.org
 #-------------------------------------------------------------------------------

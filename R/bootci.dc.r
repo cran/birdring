@@ -1,5 +1,5 @@
 # Function to calculate the bootstrap confidence interval of the division coefficients and the reencounter probabilities
-# Author: Fränzi Korner-Nievergelt, Swiss Ornithological Institute, www.vogelwarte.ch
+# Author: Fraenzi Korner-Nievergelt, Swiss Ornithological Institute, www.vogelwarte.ch
 # August 2009, R 2.9.1
 ###################################################################################################
 
@@ -9,13 +9,6 @@ bootci.dc <- function(N, recmatrix, interval=0.95, R=1000, group.names=NA, area.
 # recmatrix: matrix containing the number of re-encountered birds per group and area
 # the rows of the matrix represent the bird groups, the columns represent the destination areas
 ###################################################################################################
-# Literature:
-# Kania, W. & Busse, P. (1987) An analysis of the recovery distribution based on finding probabilities.
-#    Acta Ornithologica 23: 121-128.
-# Korner-Nievergelt, F., Schaub, M., Thorup, K., Vock, M. & Kania, W. (in press.) Estimation of bird distribution
-#   based on ring re-encounters: Precision and bias of the division coefficient and its relation to multi-state models.
-#   Bird Study
-####################################################################################################
 
 
 if(length(group.names)<2) group.names <- 1:length(N)

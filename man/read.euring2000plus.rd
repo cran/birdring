@@ -43,8 +43,8 @@ year \tab numeric \tab year of record, derived from date\cr
 date.acc \tab character \tab accuracy of date\cr
 time \tab character \tab time\cr
 place.code \tab character \tab place code\cr
-country \tab character \tab country derived from place code\cr
-region \tab character \tab region (county) derived from place code\cr        
+country \tab character \tab country extracted from place code\cr
+region \tab character \tab region (county) extracted from place code\cr        
 lat \tab numeric \tab latitude in decimal coordinates\cr
 lon \tab numeric \tab longitude in decimal coordinates\cr
 coord.acc \tab character \tab accuracy of coordinates\cr     

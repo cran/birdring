@@ -1,10 +1,11 @@
 \name{birdring-package}
 \alias{birdring-package}
 \docType{package}
-\title{Methods to analyse bird ring reencounter data}
+\title{Methods to Analyse Bird Ring Reencounter data}
 \description{
 This package is a collection of functions or methods used to analyse ring reencounter data.
 Its purpose is to read EURING ring reencounter data into R, and to help mapping and analysing reencounter data.
+For a tutorial, go to http://www.tandfonline.com/doi/full/10.1080/03078698.2014.933053
 }
 \details{
 \tabular{ll}{

@@ -1,5 +1,5 @@
 # Function to calculate the division coefficients per group of birds and the recovery probability per area
-# Author: Fränzi Korner-Nievergelt, Swiss Ornithological Institute, www.vogelwarte.ch
+# Author: Fraenzi Korner-Nievergelt, Swiss Ornithological Institute, www.vogelwarte.ch
 # August 2009, R 2.9.1
 ###################################################################################################
 dc <- function(N, recmatrix, group.names=NA, area.names=NA, start=NA){
@@ -8,12 +8,6 @@ dc <- function(N, recmatrix, group.names=NA, area.names=NA, start=NA){
 # recmatrix: matrix containing the number of re-encountered birds per group and area
 # the rows of the matrix represent the bird groups, the columns represent the destination areas
 ###################################################################################################
-# Literature:
-# Kania, W. & Busse, P. (1987) An analysis of the recovery distribution based on finding probabilities.
-#    Acta Ornithologica 23: 121-128.
-####################################################################################################
-
-
 
 if(nrow(recmatrix)==ncol(recmatrix)){
   nx <- recmatrix

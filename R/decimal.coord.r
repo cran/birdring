@@ -1,7 +1,7 @@
 ###################################################################################
 # Computes decimal coordinates from degrees and minutes
 # x: vector containing degrees and minutes
-# Author: Fränzi Korner, 9.9.2004, www.oikostat.ch and www.vogelwarte.ch
+# Author: Fraenzi Korner, 9.9.2004, www.oikostat.ch and www.vogelwarte.ch
 ###################################################################################
 decimal.coord<-function(x){
 t.sign<-sign(x)

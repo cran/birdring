@@ -13,16 +13,16 @@ orthodrom.dist(x1, y1, x2, y2)
 
 \arguments{
   \item{x1}{
-x-coordinate of the first point (in decimal coordinates), can be a scalar or a vector
+x-coordinate/longitude of the first point (in decimal coordinates), can be a scalar or a vector
 }
   \item{y1}{
-y-coordinate of the first point (in decimal coordinates), can be a scalar or a vector
+y-coordinate/latitude of the first point (in decimal coordinates), can be a scalar or a vector
 }
   \item{x2}{
-x-coordinate of the second point (in decimal coordinates), can be a scalar or a vector
+x-coordinate/longitude of the second point (in decimal coordinates), can be a scalar or a vector
 }
   \item{y2}{
-y-coordinate of the second point (in decimal coordinates), can be a scalar or a vector
+y-coordinate/latitude of the second point (in decimal coordinates), can be a scalar or a vector
 }
 }
 \details{

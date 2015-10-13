@@ -1,14 +1,14 @@
 
 ##################################################################################################################
 ### Computes the direction between two points on Earth 
-### using the loxodromes (Imboden & Imboden 1972)
+### using the loxodromes (Imboden and Imboden 1972)
 ### x1, x2: Longitudes of the points 1 and 2 in decimal coordinates
 ### y1, y2: Latitudes of the points 1 and 2 in decimal coordinates
 ### epsilon: threshold value of a number to be interpreted as zero
 ### You might use decimal.koord() to transform degrees and minutes into decimal coordinates
 ### The function gives the direction from point 1 to point 2 in degrees (0 = North, 90 = East, 180 = South, 270 = West)
-### Reference: Imboden, C. & D. Imboden (1972). Vogelwarte 26: 336-346.
-### Author: Fränzi Korner-Nievergelt, Sept. 2004, www.oikostat.ch and www.vogelwarte.ch
+### Reference: Imboden, C. and D. Imboden (1972). Vogelwarte 26: 336-346.
+### Author: Fraenzi Korner-Nievergelt, Sept. 2004, www.oikostat.ch and www.vogelwarte.ch
 ###################################################################################################################
 loxodrom.dir<-function(x1, y1, x2, y2, epsilon=0.000001){
 t.winkel<-numeric(length(x1))
