@@ -156,6 +156,9 @@ same group identifier, since only that attached to the first encounter will be u
 }
 \examples{
 data(lancol)
+if (requireNamespace("rgeos", quietly=TRUE) && packageVersion("rgeos") >= "0.5.1") {
+  if (rgeos::get_RGEOS_CheckValidity() == 1L) rgeos::set_RGEOS_CheckValidity(2L)
+}
 draw.recmap(lancol,lines=2,border='gray',subset="ring=='13B...6919'",gcircle=TRUE,zoom=3)
 
 \dontrun{

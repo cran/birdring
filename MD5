@@ -1,4 +1,4 @@
-d501b76bb8f2f61c73d8175657320f39 *DESCRIPTION
+e105cc2d762fafe807d02e2e80038a25 *DESCRIPTION
 33048a51e528fa51d074753294c74dc5 *NAMESPACE
 931a853d6e3755c0fe219409753a4755 *R/birdstate.R
 416d5e2b2ba05e9d2bc0ab0802f2c31d *R/bootci.dc.r
@@ -46,7 +46,7 @@ b8b961f17c16f4672a25730cdcfe88c9 *man/codes2names.Rd
 169296e9b42b2421f082c5308259e72c *man/decimal.coord.Rd
 092b8948baa59f33c9be99122536f915 *man/dmvnorm.Rd
 9b8c63821dffe7d8f8bf75930ccc1632 *man/draw.map.Rd
-8fd82b6b6d08be516325f690126184fb *man/draw.recmap.Rd
+9a7a02525568138afae5d7d6abb7f5fc *man/draw.recmap.Rd
 a59f377aee0aa351619e2e70e89726ea *man/lancol.Rd
 9f9e68562cd19eb1a7bba46a3faf874f *man/loxodrom.dir.Rd
 083cc94f6f5c49cf1db07c9f53c17afe *man/mdy.date.Rd
