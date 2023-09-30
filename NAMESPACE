@@ -1,5 +1,6 @@
 export(
-	birdstate
+  #add.geometry
+	     birdstate
        ,bootci.dc
        ,codes2names
        ,critical.check.ringing.event
@@ -8,11 +9,10 @@ export(
        ,decimal.coord
        ,dmvnorm
        ,draw.map
-       ,draw.recmap
+ #      ,draw.recmap
        ,loxodrom.dir
        ,loxodrom.dist
        ,mdy.date
- #     ,mercatorbreite
        ,mercatorlat
        ,orthodrom.dist
        ,overlap
@@ -27,7 +27,7 @@ export(
 	)
 importFrom(lazyData, requireData)
 importFrom(raster, extent)
-importFrom(rgeos, gIntersects, gIntersection, gDifference, gUnionCascaded)
+#importFrom(rgeos, gIntersects, gIntersection, gDifference, gUnionCascaded)
 importFrom(geosphere,gcIntermediate, distRhumb, distMeeus)
 #importFrom(ks, kde, Hpi)
 #importFrom(reshape, melt, cast)
@@ -39,10 +39,14 @@ importFrom(geosphere,gcIntermediate, distRhumb, distMeeus)
   importFrom("stats", "density", "mahalanobis", "optim", "quantile", "runif", "median")
   importFrom("utils", "data", "read.table")
 
-import(rgdal)
+#import(rgdal)
 import(rworldmap)
 import(rworldxtra)
 import(sp)
+import(sf)
 import(ks)
+import(basemaps)
+import(maps)
+import(sfheaders)
 #import(reshape)
 

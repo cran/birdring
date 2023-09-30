@@ -7,11 +7,17 @@ Reads EURING data of the format 2000\+ into R
 Reads EURING data (format EURING exchange code 2000\+) into R and creates a data.frame
 }
 \usage{
-read.euring2000plus(filename)
+read.euring2000plus(filename, quote="", ...)
 }
 \arguments{
   \item{filename}{
 character string of the psv-file obtained from EURING (format: exchange code 2000\+)
+}
+  \item{quote}{
+default is to ignore quotemarks as much as possible, see notes.
+}
+  \item{...}{
+extra arguments to pass to read.table
 }
 }
 \value{
@@ -81,6 +87,9 @@ carpal.covert \tab numeric \tab state of moult of the carpal covert: 0=old, 1=ne
 sexing.method \tab character \tab for code description see du Feu (2012).\cr
 }
 For three additional optional variables, see du Feu (2012).
+}
+\note{
+Quotemarks, apostrophes and backticks can cause havoc when reading in files; if things do not work as you expect, check for their presence of these and consider removing!
 }
 \references{
 du Feu et al. 2012: EURING exchange-code 2000\+. www.euring.org

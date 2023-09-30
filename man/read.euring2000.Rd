@@ -7,11 +7,17 @@ Reads EURING data  into R
 Reads EURING data (format EURING exchange code 2000) into R and creates a data.frame
 }
 \usage{
-read.euring2000(filename)
+read.euring2000(filename, quote="", ...)
 }
 \arguments{
   \item{filename}{
 character string of the data file obtained from EURING (format: exchange code 2000)
+}
+  \item{quote}{
+default is to ignore quotemarks as much as possible, see notes.
+}
+  \item{...}{
+extra arguments to pass to read.table
 }
 }
 \value{
@@ -56,6 +62,9 @@ distance \tab numeric \tab distance to place of ringing (km)\cr
 direction \tab numeric \tab direction to place of ringing (km)\cr 
 time.elapsed  \tab numeric \tab time since ringing (days)\cr 
 }
+}
+\note{
+Quotemarks, apostrophes and backticks can cause havoc when reading in files; if things do not work as you expect, check for their presence of these and consider removing!
 }
 \references{
 Speek et al. 2007: The EURING exchange-code 2000. www.euring.org

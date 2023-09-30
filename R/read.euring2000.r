@@ -7,7 +7,7 @@
 # 22. 1. 2014 fk: condition and circumstances were transformed into numeric variables
 
 #-------------------------------------------------------------------------------
-read.euring2000 <- function(filename){
+read.euring2000 <- function(filename, quote="", ...){
 #-------------------------------------------------------------------------------
 # filename: name of the txt-file obtained from EURING
 #------------------------------------------------------------------------------- 
@@ -15,7 +15,7 @@ options(encoding="latin1")
 warnorig <- options("warn")
 options(warn= -1)
 
-rodat<-read.table(filename, colClasses = "character", sep=",")
+rodat<-read.table(filename, colClasses = "character", sep=",", quote=quote, ...)
 dat<-data.frame(scheme=substr(rodat$V1, 1,3), id.method=substr(rodat$V1, 4, 5), ring=substr(rodat$V1, 6, 15))
 dat$ring.verif<-substr(rodat$V1, 16, 16)
 dat$metal.ring.info<-substr(rodat$V1, 17, 17)

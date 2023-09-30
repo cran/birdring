@@ -3,13 +3,13 @@
 #
 # Reference: du Feu et al. 2012: The EURING Exchange Code 2000+. www.euring.org
 #-------------------------------------------------------------------------------
-read.euring2000plus <- function(filename){
+read.euring2000plus <- function(filename, quote="", ...){
 #-------------------------------------------------------------------------------
 # filename: name of the psv-file obtained from EURING
 #-------------------------------------------------------------------------------
 options(encoding="latin1")
 
-rodat <- read.table(filename, colClasses = "character", sep="|")
+rodat <- read.table(filename, colClasses = "character", sep="|", quote=quote, ...)
 dat <- data.frame(scheme=rodat$V1, id.method=rodat$V2, ring=rodat$V3)
 dat$ring.verif <- rodat$V4
 dat$metal.ring.info <- rodat$V5
